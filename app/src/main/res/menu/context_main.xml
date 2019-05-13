@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.musicplayer.MainActivity" >
+
+  <item android:id="@+id/menu_cmi1"
+       android:title="Details"
+        />
+   <item android:id="@+id/menu_cmi2"
+       android:showAsAction="always"
+       android:icon="@android:drawable/ic_menu_camera"
+       android:title="Share"
+        />
+   <item android:id="@+id/menu_cmi3"
+       android:showAsAction="ifRoom"
+       android:icon="@android:drawable/stat_sys_data_bluetooth"
+       android:title="Delete"
+        />
+   
+</menu>
